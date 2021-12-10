@@ -1,0 +1,165 @@
+
+
+/*I have a huge mess I'm so sorry*/
+
+.avatar-img{
+  width:40px;
+  float:left;
+  margin-right: 10px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body{
+  color: hsl(215, 51%, 70%);
+  background-color: hsl(217, 54%, 11%);
+  text-align: center;
+  font-size: 18px;
+  padding: 80px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+}
+
+.container{
+  margin: auto auto;
+  width:28%;
+  padding: 30px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 8px;
+  position:relative;
+}
+
+.disc{
+  text-align: left;
+}
+
+.equilibrium{
+  position: relative;
+  height:100%;
+  width:100%;
+  border-radius: 8px;
+  margin:0;
+  cursor: pointer;
+}
+
+.eql-container{
+  height: 320px;
+  position: relative;
+  background-color:hsl(178, 100%, 50%);
+  border-radius: 10px;
+  padding: 0;
+
+
+}
+
+
+.footer{
+  display: inline-block;
+  width: 280px;
+  margin-right: 100px;
+}
+
+h1{
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+hr{
+  border: 1px solid;
+  color:hsl(215, 32%, 27%);
+  margin-bottom: 20px;
+}
+
+.inbl{
+  display: inline-block;
+  margin:10px 0 0 0;
+
+}
+
+.left{
+  display: inline-block;
+  margin-left: 60px
+}
+
+.right{
+  display: inline-block;
+  margin-right: 60px;
+  color: hsl(178, 100%, 50%);
+}
+
+.overlay{
+  position: absolute;
+  top:140px;
+  right:140px;
+  opacity: 0;
+}
+
+.space{
+  margin-right: 5px;
+  margin-top:5px;
+}
+
+.overlay:hover{
+  opacity: 100%;
+  cursor: pointer;
+}
+
+a:active{
+  color: hsl(178, 100%, 50%);
+}
+
+h1:active{
+
+  color: hsl(178, 100%, 50%);
+}
+
+.equilibrium:active{
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 600px){
+  body {
+    padding:50px 0 5px 20px;
+  }
+  .container{
+    height: 100%;
+    width: 97%;
+    padding:15px;
+  }
+  .eql-container{
+    height: 290px;
+    width:312px;
+
+  }
+
+  .right{
+    margin-right:53px;
+  }
+
+  .left{
+    margin-left:53px;
+  }
+
+  .overlay{
+    top:115px;
+    right:50px
+  }
+}
